@@ -1,0 +1,130 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, 512)               14714688  
+                                                                 
+ flatten (Flatten)           (None, 512)               0         
+                                                                 
+ dense (Dense)               (None, 512)               262656    
+                                                                 
+ dense_1 (Dense)             (None, 2)                 1026      
+                                                                 
+=================================================================
+Total params: 14,978,370
+Trainable params: 263,682
+Non-trainable params: 14,714,688
+
+(x_test, y_test_one_hot))
+Epoch 1/50
+44/44 [==============================] - 149s 3s/step - loss: 0.6394 - accuracy: 0.6336 - val_loss: 0.3495 - val_accuracy: 0.9400
+Epoch 2/50
+44/44 [==============================] - 144s 3s/step - loss: 0.4831 - accuracy: 0.7786 - val_loss: 0.2957 - val_accuracy: 0.8800
+Epoch 3/50
+44/44 [==============================] - 134s 3s/step - loss: 0.4152 - accuracy: 0.8271 - val_loss: 0.1718 - val_accuracy: 0.9600
+Epoch 4/50
+44/44 [==============================] - 136s 3s/step - loss: 0.3554 - accuracy: 0.8636 - val_loss: 0.2430 - val_accuracy: 0.8900
+Epoch 5/50
+44/44 [==============================] - 133s 3s/step - loss: 0.3044 - accuracy: 0.8893 - val_loss: 0.1656 - val_accuracy: 0.9500
+Epoch 6/50
+44/44 [==============================] - 133s 3s/step - loss: 0.3313 - accuracy: 0.8564 - val_loss: 0.1755 - val_accuracy: 0.9100
+Epoch 7/50
+44/44 [==============================] - 133s 3s/step - loss: 0.2561 - accuracy: 0.9007 - val_loss: 0.1775 - val_accuracy: 0.9200
+Epoch 8/50
+44/44 [==============================] - 133s 3s/step - loss: 0.2160 - accuracy: 0.9186 - val_loss: 0.2346 - val_accuracy: 0.8800
+Epoch 9/50
+44/44 [==============================] - 131s 3s/step - loss: 0.2103 - accuracy: 0.9207 - val_loss: 0.2381 - val_accuracy: 0.8700
+Epoch 10/50
+44/44 [==============================] - 119s 3s/step - loss: 0.1899 - accuracy: 0.9257 - val_loss: 0.2710 - val_accuracy: 0.8700
+Epoch 11/50
+44/44 [==============================] - 119s 3s/step - loss: 0.1743 - accuracy: 0.9400 - val_loss: 0.2856 - val_accuracy: 0.8600
+Epoch 12/50
+44/44 [==============================] - 118s 3s/step - loss: 0.1626 - accuracy: 0.9414 - val_loss: 0.2427 - val_accuracy: 0.9200
+Epoch 13/50
+44/44 [==============================] - 118s 3s/step - loss: 0.1545 - accuracy: 0.9507 - val_loss: 0.2643 - val_accuracy: 0.8800
+Epoch 14/50
+44/44 [==============================] - 118s 3s/step - loss: 0.1708 - accuracy: 0.9279 - val_loss: 0.2689 - val_accuracy: 0.9200
+Epoch 15/50
+44/44 [==============================] - 119s 3s/step - loss: 0.1480 - accuracy: 0.9457 - val_loss: 0.2774 - val_accuracy: 0.8800
+Epoch 16/50
+44/44 [==============================] - 119s 3s/step - loss: 0.1221 - accuracy: 0.9564 - val_loss: 0.3021 - val_accuracy: 0.8800
+Epoch 17/50
+44/44 [==============================] - 119s 3s/step - loss: 0.1180 - accuracy: 0.9593 - val_loss: 0.3033 - val_accuracy: 0.9200
+Epoch 18/50
+44/44 [==============================] - 120s 3s/step - loss: 0.1059 - accuracy: 0.9629 - val_loss: 0.2924 - val_accuracy: 0.8800
+Epoch 19/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0999 - accuracy: 0.9650 - val_loss: 0.2965 - val_accuracy: 0.8800
+Epoch 20/50
+44/44 [==============================] - 119s 3s/step - loss: 0.1502 - accuracy: 0.9414 - val_loss: 0.2817 - val_accuracy: 0.9200
+Epoch 21/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0928 - accuracy: 0.9721 - val_loss: 0.3118 - val_accuracy: 0.9100
+Epoch 22/50
+44/44 [==============================] - 118s 3s/step - loss: 0.1159 - accuracy: 0.9521 - val_loss: 0.3300 - val_accuracy: 0.9200
+Epoch 23/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0781 - accuracy: 0.9786 - val_loss: 0.3080 - val_accuracy: 0.8800
+Epoch 24/50
+44/44 [==============================] - 191s 4s/step - loss: 0.0945 - accuracy: 0.9636 - val_loss: 0.3096 - val_accuracy: 0.8800
+Epoch 25/50
+44/44 [==============================] - 121s 3s/step - loss: 0.0704 - accuracy: 0.9771 - val_loss: 0.3209 - val_accuracy: 0.8900
+Epoch 26/50
+44/44 [==============================] - 120s 3s/step - loss: 0.0691 - accuracy: 0.9771 - val_loss: 0.3283 - val_accuracy: 0.9300
+Epoch 27/50
+44/44 [==============================] - 120s 3s/step - loss: 0.0636 - accuracy: 0.9836 - val_loss: 0.3476 - val_accuracy: 0.9100
+Epoch 28/50
+44/44 [==============================] - 120s 3s/step - loss: 0.0747 - accuracy: 0.9771 - val_loss: 0.3192 - val_accuracy: 0.8800
+Epoch 29/50
+44/44 [==============================] - 120s 3s/step - loss: 0.0932 - accuracy: 0.9686 - val_loss: 0.3659 - val_accuracy: 0.9000
+Epoch 30/50
+44/44 [==============================] - 120s 3s/step - loss: 0.0543 - accuracy: 0.9871 - val_loss: 0.3239 - val_accuracy: 0.8800
+Epoch 31/50
+44/44 [==============================] - 119s 3s/step - loss: 0.0527 - accuracy: 0.9864 - val_loss: 0.3810 - val_accuracy: 0.9000
+Epoch 32/50
+44/44 [==============================] - 1605s 37s/step - loss: 0.0476 - accuracy: 0.9864 - val_loss: 0.3258 - val_accuracy: 0.9200
+Epoch 33/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0581 - accuracy: 0.9800 - val_loss: 0.3187 - val_accuracy: 0.8800
+Epoch 34/50
+44/44 [==============================] - 119s 3s/step - loss: 0.0725 - accuracy: 0.9736 - val_loss: 0.3833 - val_accuracy: 0.9000
+Epoch 35/50
+44/44 [==============================] - 119s 3s/step - loss: 0.0550 - accuracy: 0.9843 - val_loss: 0.3225 - val_accuracy: 0.9000
+Epoch 36/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0435 - accuracy: 0.9886 - val_loss: 0.3430 - val_accuracy: 0.9200
+Epoch 37/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0462 - accuracy: 0.9871 - val_loss: 0.4297 - val_accuracy: 0.9000
+Epoch 38/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0480 - accuracy: 0.9864 - val_loss: 0.3577 - val_accuracy: 0.9300
+Epoch 39/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0383 - accuracy: 0.9900 - val_loss: 0.3782 - val_accuracy: 0.9300
+Epoch 40/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0396 - accuracy: 0.9914 - val_loss: 0.3222 - val_accuracy: 0.9200
+Epoch 41/50
+44/44 [==============================] - 128s 3s/step - loss: 0.0323 - accuracy: 0.9936 - val_loss: 0.3385 - val_accuracy: 0.9200
+Epoch 42/50
+44/44 [==============================] - 120s 3s/step - loss: 0.0311 - accuracy: 0.9957 - val_loss: 0.3737 - val_accuracy: 0.9200
+Epoch 43/50
+44/44 [==============================] - 119s 3s/step - loss: 0.0300 - accuracy: 0.9943 - val_loss: 0.3772 - val_accuracy: 0.9300
+Epoch 44/50
+44/44 [==============================] - 118s 3s/step - loss: 0.0345 - accuracy: 0.9936 - val_loss: 0.3589 - val_accuracy: 0.8700
+Epoch 45/50
+44/44 [==============================] - 134s 3s/step - loss: 0.0328 - accuracy: 0.9936 - val_loss: 0.3473 - val_accuracy: 0.9200
+Epoch 46/50
+44/44 [==============================] - 135s 3s/step - loss: 0.0333 - accuracy: 0.9900 - val_loss: 0.4628 - val_accuracy: 0.9000
+Epoch 47/50
+44/44 [==============================] - 134s 3s/step - loss: 0.0239 - accuracy: 0.9979 - val_loss: 0.4023 - val_accuracy: 0.9200
+Epoch 48/50
+44/44 [==============================] - 133s 3s/step - loss: 0.0233 - accuracy: 0.9957 - val_loss: 0.3626 - val_accuracy: 0.9300
+Epoch 49/50
+44/44 [==============================] - 134s 3s/step - loss: 0.0215 - accuracy: 0.9971 - val_loss: 0.3738 - val_accuracy: 0.9300
+Epoch 50/50
+44/44 [==============================] - 133s 3s/step - loss: 0.0286 - accuracy: 0.9929 - val_loss: 0.4055 - val_accuracy: 0.9100
+
+2024-03-30 18:20:28.177097: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 536870912 exceeds 10% of free system memory.
+2024-03-30 18:20:28.377450: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 536870912 exceeds 10% of free system memory.
+2024-03-30 18:20:32.166992: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 536870912 exceeds 10% of free system memory.
+2024-03-30 18:20:32.267680: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 536870912 exceeds 10% of free system memory.
+2024-03-30 18:20:35.964789: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 536870912 exceeds 10% of free system memory.
+
+Accuracy =  0.91
+
+1/1 [==============================] - 0s 135ms/step
+The prediction for this image is:  ['Non_Covid']
+The actual label for this image is:  Covid

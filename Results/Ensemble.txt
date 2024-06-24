@@ -1,0 +1,14 @@
+Accuracy Score for model1 =  0.91
+Accuracy Score for model2 =  0.9
+Accuracy Score for model3 =  0.92
+Accuracy Score for average ensemble =  0.94
+
+Accuracy Score for model1 =  0.91
+Accuracy Score for model2 =  0.9
+Accuracy Score for model3 =  0.92
+Accuracy Score for average ensemble =  0.94
+Accuracy Score for weighted average ensemble =  0.94
+
+Max accuracy of  0.4  obained with w1= 0.4  w2= 0.4  and w3= 94.0
+
+Accuracy Score for ideal weighted average ensemble =  0.92
